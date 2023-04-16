@@ -1,0 +1,22 @@
+body::before{
+    display: block;
+    content: "";
+    height: 70px;
+}
+.img{
+    width: 130px;
+}
+.map-img{
+    margin-left: 130px;
+    margin-top: 60px;
+    width: 350px;
+}
+.code{
+    width: 300px;
+}
+
+@media (min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
